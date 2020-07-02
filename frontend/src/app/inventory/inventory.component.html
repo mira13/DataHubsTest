@@ -1,0 +1,18 @@
+<div [className]="'tableWrapper'">
+    <div [className]="'tableRow'">
+        <div *ngFor="let header of columnHeader" [className]="'columnHeader'">
+            {{header}}
+        </div>
+    </div>
+    <div *ngFor="let item of inventory" [className]="'tableRow'">
+        <div [className]="'tableCell'">
+            {{item.sku}}
+        </div>
+        <div [className]="'tableCell'">
+            {{item.name}}
+        </div>
+        <div [className]="'tableCell'">
+            {{item.count}}
+        </div>
+    </div>
+</div>

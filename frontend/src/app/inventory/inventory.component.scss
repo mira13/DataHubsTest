@@ -1,0 +1,26 @@
+.tableWrapper {
+  flex-flow: column nowrap;
+  border: 1px solid #aaa;
+  margin: 10px;
+  width: 30%;
+}
+
+.tableRow {
+  flex-flow: row nowrap;
+  display: flex;
+  border-bottom: 1px solid #aaa;
+}
+
+.tableCell {
+  display: flex;
+  width: 33%;
+  padding: 5px;
+}
+
+.columnHeader {
+  display: flex;
+  border-top: 1px solid #aaa;
+  width: 50%;
+  padding: 5px;
+  font-weight: 700;
+}
